@@ -1,18 +1,4 @@
 <!DOCTYPE html>
-<html>
-<head>
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<style></style>
-<title>Chris Carr - Portfolio</title>
-</head>
-<body>
-<div id="timeline">
-</div>
-</body>
-</html>
-
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -30,7 +16,7 @@
     	float: left;
     }
     body{
-    
+
     }
     .title{
     	float: left;
@@ -58,8 +44,8 @@
     </style>
   </head>
   <body>
-  
-    <h1>Chris Carr</h1>
+
+    <h1>Chris Carr - Full Stack Software Developer - 11+ Years experience</h1>
     <div>Experience working with technologies and methodologies</div>
     <div>C++, C#.NET, Java, PHP, Python, Ruby, JavaScript, Perl, ASP.NET, XML, JSON, jQuery, BootStrap, Ext JS, CoffeeScript, RSpec, Rack, Backbone.js, Marrionette.js, Eco Templates, SQL, Java, J2ME, JSP, ASP, CSS3, HTML5, AJAX, LESS, WordPress, MongoDB, MySQL, SQL Server, Oracle, Progress DB, PostgreSQL, Git, Subversion, VSS, PHPUnit, JUnit, Apache web server, Apache Tomcat, Apache Maven, Apache Ant, NGINX, OS X, Windows, Linux, MKS, Jira, Trello, Slack, Spring Framework, Eclipse, Visual Studio, PHPStorm, NetBeans, Sublime, Textpad, Waterfall, TDD, Agile, Kanban, Scrum</div>
     <div>Hackathons and Peer Groups</div>
@@ -94,7 +80,7 @@
     </div>
     </div>
     <div>Fun</div>
-    <div class="fun">
+    <div>
     	<img class="fun" src="img/fun/gardening.jpg" alt="">
     	<img class="fun" src="img/fun/hammock.jpg" alt="">
     	<img class="fun" src="img/fun/motorcycle.jpg" alt="">
@@ -105,6 +91,9 @@
     <div>
     <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
 <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/christopher-carr-220a7924" data-format="inline" data-related="false"></script></div>
+	<div>
+	<a class="twitter-timeline" href="https://twitter.com/MoonScientist">Tweets by MoonScientist</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
 
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -119,7 +108,7 @@
     		}
     	}
 
-    	
+
     	var projects = [];
     	projects.push(new Project("mastercardnxt.png", "MasterCard NXT Hackathon - Movie Tickles", "Buy your tickets, reserve your seat, get directed to the theater, get food delivered to your seat. Won first place $10,000 with co-workers from tulip retail", "https://vimeo.com/75912199"));
     	projects.push(new Project("western.png", "Western Card Game - Kraplow", "Web multiplayer version of a popular western card game. All coded by me", "http://chriscarr.name/westerncardgame/"));
